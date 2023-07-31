@@ -19,6 +19,11 @@ public class main {
         //In this example, the "i" tag makes <i> and </i> which surround the word "Yay".
         System.out.println(StringExercises.makeTags("i", "Hello"));
 
+        //Given a string, return the string made of its first two chars,
+        // so the String "Hello" yields "He"
+        System.out.println(StringExercises.firstTwo("Hello"));
+
+
     }
 
 }
