@@ -41,6 +41,10 @@ public class main {
         //Given a string, return a string length 2 made of its first 2 chars.
         System.out.println(StringExercises.atFirst("Helloppoo"));
 
+        //Given a string of any length, return a new string where the last 2 chars
+        System.out.println(StringExercises.lastTwo("Helloppor"));
+
+
     }
 
 }

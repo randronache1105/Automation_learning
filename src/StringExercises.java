@@ -74,6 +74,13 @@ public class StringExercises {
         else return str.substring(0,2);
     }
 
+    public static String lastTwo(String str) {
+        if(str.length()==0) return "";
+        if(str.length() < 2) return str.substring(str.length() - 1, str.length());
+        else return str.substring(0, str.length()-2) + str.substring(str.length() - 1, str.length()) + str.substring(str.length() - 2, str.length() - 1);
+    }
+
+
 
 
 }
