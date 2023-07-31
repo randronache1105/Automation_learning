@@ -34,6 +34,10 @@ public class main {
         //Given a string of even length, return a string made of the middle two chars,
         // so the string "string" yields "ri"
         System.out.println(StringExercises.middleTwo("Helloppoo"));
+
+        //Given a string and an index, return a string length 2 starting at the given index.
+        System.out.println(StringExercises.twoChar("java", 2));
+
     }
 
 }
