@@ -27,7 +27,9 @@ public class main {
         // with the shorter string on the outside and the longer string on the inside.
         System.out.println(StringExercises.comboString("aaa", "b"));
 
-
+        //Given a string, return a "rotated right 2"
+        // version where the last 2 chars are moved to the start
+        System.out.println(StringExercises.right2("Hello"));
     }
 
 }
