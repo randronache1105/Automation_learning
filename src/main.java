@@ -16,6 +16,9 @@ public class main {
         // and otherwise return the string unchanged
         System.out.println(StringExercises.withoutX("xHix"));
 
+        //In this example, the "i" tag makes <i> and </i> which surround the word "Yay".
+        System.out.println(StringExercises.makeTags("i", "Hello"));
+
     }
 
 }

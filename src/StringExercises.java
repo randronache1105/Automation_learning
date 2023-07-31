@@ -33,4 +33,9 @@ public class StringExercises {
             str = str.substring(0, str.length() -1 );
         return str;
     }
+
+    public static String makeTags(String tag, String word) {
+        return "<" + tag +">" + word + "</" + tag +">";
+    }
+
 }
