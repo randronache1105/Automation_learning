@@ -92,6 +92,19 @@ public class StringExercises {
         }
     }
 
+    public static String withoutX2(String str) {
+        String newString = new String();
+        for (int i = 0; i < str.length(); i++) {
+            if (i == 0 && str.charAt(i) != 'x')
+                newString += str.charAt(i);
+            else if (i == 1 && str.charAt(i) != 'x')
+                newString += str.charAt(i);
+            else if (i > 1)
+                newString += str.charAt(i);
+        }
+        return newString;
+    }
+
 
 
 

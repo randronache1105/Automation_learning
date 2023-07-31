@@ -47,6 +47,11 @@ public class main {
         //Given two strings, append them together (known as "concatenation") and return the result.
         System.out.println(StringExercises.minCat("java", "hi"));
 
+        //Given a string, if one or both of the first 2 chars is 'x',
+        // return the string without those 'x' chars, and otherwise return the string unchanged.
+        System.out.println(StringExercises.withoutX2("Hxi"));
+
+
     }
 
 }
