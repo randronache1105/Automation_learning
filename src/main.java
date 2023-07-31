@@ -23,6 +23,10 @@ public class main {
         // so the String "Hello" yields "He"
         System.out.println(StringExercises.firstTwo("Hello"));
 
+        //Given 2 strings, a and b, return a string of the form short+long+short,
+        // with the shorter string on the outside and the longer string on the inside.
+        System.out.println(StringExercises.comboString("aaa", "b"));
+
 
     }
 

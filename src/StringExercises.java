@@ -44,5 +44,14 @@ public class StringExercises {
                 else return str.substring(0,2);
     }
 
+    public static String comboString(String a, String b) {
+        if(a.length() == 0) return b;
+            else if(b.length() == 0) return a;
+
+        if(a.length() > b.length()) return  b + a +b;
+            else return a + b + a;
+    }
+
+
 
 }
