@@ -8,6 +8,9 @@ public class main {
         //is the same with the first character of the second string to not duplicate it
         System.out.println(conCat.Cat("abafvva","adeaf"));
 
+        //If a length 2 substring appears at both its beginning and end,
+        // return a string without the substring at the beginning
+        System.out.println(StringExercises.without2("xx"));
     }
 
 }
