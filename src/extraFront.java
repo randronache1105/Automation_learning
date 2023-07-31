@@ -5,7 +5,6 @@ public class extraFront {
         System.out.println(extra("REDxxx"));
     }
 
-
     public static String extra(String str) {
         if(str.length() < 2) return str + str + str;
 

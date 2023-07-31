@@ -1,4 +1,5 @@
 public class firstHalf {
+
     public static void main(String[] args) {
         first("HELLOO");
         System.out.println(first("Helloo"));
