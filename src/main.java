@@ -30,6 +30,10 @@ public class main {
         //Given a string, return a "rotated right 2"
         // version where the last 2 chars are moved to the start
         System.out.println(StringExercises.right2("Hello"));
+
+        //Given a string of even length, return a string made of the middle two chars,
+        // so the string "string" yields "ri"
+        System.out.println(StringExercises.middleTwo("Helloppoo"));
     }
 
 }
