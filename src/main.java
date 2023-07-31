@@ -11,6 +11,11 @@ public class main {
         //If a length 2 substring appears at both its beginning and end,
         // return a string without the substring at the beginning
         System.out.println(StringExercises.without2("xx"));
+
+        //if the first or last chars are 'x', return the string without those 'x' chars,
+        // and otherwise return the string unchanged
+        System.out.println(StringExercises.withoutX("xHix"));
+
     }
 
 }
