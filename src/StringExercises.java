@@ -105,6 +105,21 @@ public class StringExercises {
         return newString;
     }
 
+    public static String deFront(String str) {
+        String newString = new String();
+        for (int i = 0; i < str.length(); i++) {
+            if (i == 0 && str.charAt(i) == 'a')
+                newString = newString + 'a';
+            else if (i == 1 && str.charAt(i) == 'b')
+                newString = newString + 'b';
+            else if (i > 1)
+                newString = newString + str.charAt(i);
+
+        }
+        return newString;
+    }
+
+
 
 
 

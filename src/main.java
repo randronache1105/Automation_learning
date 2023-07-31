@@ -51,6 +51,9 @@ public class main {
         // return the string without those 'x' chars, and otherwise return the string unchanged.
         System.out.println(StringExercises.withoutX2("Hxi"));
 
+        //Given a string, return a version without the first 2 chars.
+        // Except keep the first char if it is 'a' and keep the second char if it is 'b'.
+        System.out.println(StringExercises.deFront("java"));
 
     }
 
