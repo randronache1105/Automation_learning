@@ -80,6 +80,19 @@ public class StringExercises {
         else return str.substring(0, str.length()-2) + str.substring(str.length() - 1, str.length()) + str.substring(str.length() - 2, str.length() - 1);
     }
 
+    public static String minCat(String a, String b) {
+        if (a.length() == b.length())
+            return a+b;
+        if (a.length() > b.length()){
+            int diff = a.length() - b.length();
+            return a.substring(diff, a.length()) + b;
+        } else {
+            int diff = b.length() - a.length();
+            return a + b.substring(diff, b.length());
+        }
+    }
+
+
 
 
 

@@ -44,6 +44,8 @@ public class main {
         //Given a string of any length, return a new string where the last 2 chars
         System.out.println(StringExercises.lastTwo("Helloppor"));
 
+        //Given two strings, append them together (known as "concatenation") and return the result.
+        System.out.println(StringExercises.minCat("java", "hi"));
 
     }
 
