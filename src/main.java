@@ -38,6 +38,9 @@ public class main {
         //Given a string and an index, return a string length 2 starting at the given index.
         System.out.println(StringExercises.twoChar("java", 2));
 
+        //Given a string, return a string length 2 made of its first 2 chars.
+        System.out.println(StringExercises.atFirst("Helloppoo"));
+
     }
 
 }

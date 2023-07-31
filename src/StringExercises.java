@@ -68,6 +68,12 @@ public class StringExercises {
         else return str.substring(index, index + 2);
     }
 
+    public static String atFirst(String str) {
+        if(str.length() == 1) return str.substring(0,1) + "@";
+        if(str.length() == 0) return "@@";
+        else return str.substring(0,2);
+    }
+
 
 
 }
