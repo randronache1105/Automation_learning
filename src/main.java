@@ -55,6 +55,12 @@ public class main {
         // Except keep the first char if it is 'a' and keep the second char if it is 'b'.
         System.out.println(StringExercises.deFront("java"));
 
+
+        //Given a string and a second "word" string, we'll say that the word matches
+        // the string if it appears at the front of the string,
+        // except its first char does not need to match exactly.
+        System.out.println(StringExercises.startWord("hippo", "hi"));
+
     }
 
 }
