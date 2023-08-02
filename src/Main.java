@@ -6,6 +6,10 @@ public class Main {
 
         //Return ab || ac || bc = 10 return 10 or dif ab - bc = 10 || ab - bc = 10 return 5 otherwise return 0;
         System.out.println(blueTicket.blue(10, 2, 3));
+
+        // Return 0 if a=b or return min(a,b) if a%5=b%5 otherwise return max(a,b)
+        System.out.println(maxMod5.maxMod(10, 2));
+
     }
 
 }
