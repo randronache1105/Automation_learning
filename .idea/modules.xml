@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../Accuracy/Accuracy.iml" filepath="$PROJECT_DIR$/../../Accuracy/Accuracy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Logic/Logic.iml" filepath="$PROJECT_DIR$/Logic/Logic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primitive.iml" filepath="$PROJECT_DIR$/Primitive.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../int and long/int and long.iml" filepath="$PROJECT_DIR$/../../int and long/int and long.iml" />
     </modules>

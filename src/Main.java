@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("byte minimum= %s, maximum= %s%n", Byte.MIN_VALUE, Byte.MAX_VALUE);
-        System.out.printf("short minimum= %s, maximum= %s%n", Short.MIN_VALUE, Short.MAX_VALUE);
-
+        // Return true or false if the cigar number is between 40 and 60 inclusive
+        // and even if isWeekend is false and cigars is in that interval return true
+        System.out.println(cigarParty.cigar(50, false));
     }
 
 }
