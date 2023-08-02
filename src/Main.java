@@ -3,6 +3,9 @@ public class Main {
         // Return true or false if the cigar number is between 40 and 60 inclusive
         // and even if isWeekend is false and cigars is in that interval return true
         System.out.println(cigarParty.cigar(50, false));
+
+        //Return ab || ac || bc = 10 return 10 or dif ab - bc = 10 || ab - bc = 10 return 5 otherwise return 0;
+        System.out.println(blueTicket.blue(10, 2, 3));
     }
 
 }
