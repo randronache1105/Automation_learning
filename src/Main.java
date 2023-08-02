@@ -10,6 +10,8 @@ public class Main {
         // Return 0 if a=b or return min(a,b) if a%5=b%5 otherwise return max(a,b)
         System.out.println(maxMod5.maxMod(10, 2));
 
+        // verify if however sum of 2 numbers is equal with the third one
+        System.out.println(twoAsOne.two(1,2,3));
     }
 
 }
