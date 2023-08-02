@@ -15,6 +15,9 @@ public class Main {
 
         // verify if nr of candy >= 2*tea or tea >= 2*candy
         System.out.println(teaParty.tea(4,5));
+
+        // return true or false if num is within 2 of a multiple of 10
+        System.out.println(nearTen.near(12));
     }
 
 }
