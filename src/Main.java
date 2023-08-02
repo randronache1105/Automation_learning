@@ -12,6 +12,9 @@ public class Main {
 
         // verify if however sum of 2 numbers is equal with the third one
         System.out.println(twoAsOne.two(1,2,3));
+
+        // verify if nr of candy >= 2*tea or tea >= 2*candy
+        System.out.println(teaParty.tea(4,5));
     }
 
 }
