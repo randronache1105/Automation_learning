@@ -21,6 +21,9 @@ public class Main {
 
         // verify if the last digit of a number is the same with the last number ot the other one
         System.out.println(lastDigit.last(13,23, 44));
+
+        // verify if the num is multiply of 11 and if the num%11 == 0 or 1
+        System.out.println(specialEleven.special(24));
     }
 
 }
