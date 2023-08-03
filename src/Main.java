@@ -24,6 +24,9 @@ public class Main {
 
         // verify if the num is multiply of 11 and if the num%11 == 0 or 1
         System.out.println(specialEleven.special(24));
+
+        // verify if speed is between intervals
+        System.out.println(caughtSpeeding.caught(60,true));
     }
 
 }
