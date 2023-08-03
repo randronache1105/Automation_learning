@@ -18,6 +18,9 @@ public class Main {
 
         // return true or false if num is within 2 of a multiple of 10
         System.out.println(nearTen.near(12));
+
+        // verify if the last digit of a number is the same with the last number ot the other one
+        System.out.println(lastDigit.last(13,23, 44));
     }
 
 }
