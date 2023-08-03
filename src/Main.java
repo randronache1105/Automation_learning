@@ -40,6 +40,9 @@ public class Main {
         // return 20 if the sum is between 10 and 19 and else return sum
         System.out.println(sortaSum.sorta(7,8));
 
+        // return true or false in function of outsideMode for intervals 1-10 and less than 1 and more than 10
+        System.out.println(in1To10.in(4, false));
+
     }
 
 }
