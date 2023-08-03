@@ -37,6 +37,9 @@ public class Main {
         // verify the stylish for a restaurant
         System.out.println(dateFashion.date(5,5));
 
+        // return 20 if the sum is between 10 and 19 and else return sum
+        System.out.println(sortaSum.sorta(7,8));
+
     }
 
 }
