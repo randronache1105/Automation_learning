@@ -34,6 +34,9 @@ public class Main {
         // verify if the num is multiply of 20 and return 1 or 2
         System.out.println(more20.more(22));
 
+        // verify the stylish for a restaurant
+        System.out.println(dateFashion.date(5,5));
+
     }
 
 }
