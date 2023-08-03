@@ -43,6 +43,8 @@ public class Main {
         // return true or false in function of outsideMode for intervals 1-10 and less than 1 and more than 10
         System.out.println(in1To10.in(4, false));
 
+        // return true or false if num is a multiple of 3 or 5, but not both
+        System.out.println(old35.old(15));
     }
 
 }
