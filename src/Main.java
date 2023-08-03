@@ -27,6 +27,10 @@ public class Main {
 
         // verify if speed is between intervals
         System.out.println(caughtSpeeding.caught(60,true));
+
+        // verify if the sum/dif/num is 6
+        System.out.println(love6.love(3,6));
+
     }
 
 }
