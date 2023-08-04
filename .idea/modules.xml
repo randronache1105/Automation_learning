@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../Accuracy/Accuracy.iml" filepath="$PROJECT_DIR$/../../Accuracy/Accuracy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primitive.iml" filepath="$PROJECT_DIR$/Primitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/While_for/While_for.iml" filepath="$PROJECT_DIR$/While_for/While_for.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../int and long/int and long.iml" filepath="$PROJECT_DIR$/../../int and long/int and long.iml" />
     </modules>
   </component>
