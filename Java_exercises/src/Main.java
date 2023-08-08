@@ -19,5 +19,9 @@ public class Main {
 
         //return middle of an array
         System.out.println(Arrays.toString(makeMiddle.make(new int[]{1, 2, 3, 4})));
+
+        // return an array with middle 3 numbers of a string
+        System.out.println(Arrays.toString(midThree.mid(new int[]{1, 2, 3, 4})));
+
     }
 }
