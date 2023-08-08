@@ -11,5 +11,10 @@ public class Main {
         // return reverse for an array
         System.out.println(Arrays.toString(reverse3.reverse2(new int[]{1, 2, 3})));
 
+        //2 arrays of 3 numbers return 1 array with the middle of 2 arrays
+        System.out.println(Arrays.toString(middleWay.middle(new int[]{1, 2, 3}, new int[]{4, 6, 7})));
+
+        // return true if array does not contain a 2 or 3.
+        System.out.println(no23.no(new int[]{4,5}));
     }
 }
