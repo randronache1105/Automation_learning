@@ -16,5 +16,8 @@ public class Main {
 
         // return true if array does not contain a 2 or 3.
         System.out.println(no23.no(new int[]{4,5}));
+
+        //return middle of an array
+        System.out.println(Arrays.toString(makeMiddle.make(new int[]{1, 2, 3, 4})));
     }
 }
